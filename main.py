@@ -70,7 +70,7 @@ def main():
             squared = area(info[0],info[1])
         print("side a: ", sides[0], "side b: ", sides[1], "side c: ", sides[2], "angle a: ", angles[0], "angle b: ", angles[1], "angle c: ", angles[2], "area: ", squared, "perimeter: ", perimeter(sides[0],sides[1],sides[2]))
     else:
-        print("0 for unkown")
+        print("0 for unknown")
         print("angle a: ", angles[0], "angle b: ", angles[1], "angle c: ", angles[2], "side a: ", info[0], "side b: ", info[1], "side c: ", info[2])
     
 while True:
